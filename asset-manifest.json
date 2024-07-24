@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b24befac.css",
-    "main.js": "/static/js/main.5cfd384c.js",
-    "index.html": "/index.html",
-    "main.b24befac.css.map": "/static/css/main.b24befac.css.map",
-    "main.5cfd384c.js.map": "/static/js/main.5cfd384c.js.map"
+    "main.css": "/Tours/static/css/main.b24befac.css",
+    "main.js": "/Tours/static/js/main.5cfd384c.js",
+    "index.html": "/Tours/index.html",
+    "main.b24befac.css.map": "/Tours/static/css/main.b24befac.css.map",
+    "main.5cfd384c.js.map": "/Tours/static/js/main.5cfd384c.js.map"
   },
   "entrypoints": [
     "static/css/main.b24befac.css",
