@@ -18,27 +18,27 @@ function Card({ id, name, info, image, price, removeTour }) {
         removeTour(id);
     }
     return (
-        <div className="card">
+        <div className="card w-[400px] max-h-fit p-3 border rounded-md flex flex-col gap-5">
             <div>
-                <img src={image} alt="Not Available" className="image" />
+                <img src={image} alt="Not Available" className="image w-[380px] aspect-square object-fit" /> 
             </div>
-            <div className="tourDetails">
-                <h4 className="price">
+            <div className="tourDetails pl-3">
+                <h4 className="price text-[#1faa59] font-bold text-[1.5rem]">
                     ₹ {price}
                 </h4 >
-                <h4 className="name">
+                <h4 className="name text-[1.5rem] font-bold">
                     {name}
                 </h4 >
-                <div className="description">
+                <div className="description text-[18px] text-justify leading-[22px]">
                     {description}
-                    <span onClick={toggleHandler} className="readMore"> {readMore ? 'Read Less' : 'Read More'}</span>
+                    <span onClick={toggleHandler} className="readMore cursor-pointer text-[#12b0e8]"> {readMore ? 'Read Less' : 'Read More'}</span>
                 </div>
 
                 
 
 
             </div>
-            <button onClick={removeTourHandler} className="interestedButton">Not Interested</button>
+            <button onClick={removeTourHandler} className="interestedButton w-[300px] mx-auto text-2xl py-1 font-bold bg-[#b4161b21] hover:bg-red-500 hover:text-white rounded-md border border-[##b4161b21]">Not Interested</button>
 
         </div>
     )
